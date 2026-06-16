@@ -1,0 +1,847 @@
+{
+    "schema": "attack_flow_v2",
+    "theme": "dark_theme",
+    "objects": [
+        {
+            "id": "flow",
+            "instance": "91039fbe-0607-4b37-a110-468733dadf4e",
+            "properties": [
+                [
+                    "name",
+                    "Jasper Sleet"
+                ],
+                [
+                    "description",
+                    null
+                ],
+                [
+                    "author",
+                    [
+                        [
+                            "name",
+                            null
+                        ],
+                        [
+                            "identity_class",
+                            "organization"
+                        ],
+                        [
+                            "contact_information",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "scope",
+                    "incident"
+                ],
+                [
+                    "classification",
+                    [
+                        [
+                            "marking",
+                            null
+                        ],
+                        [
+                            "group",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "external_references",
+                    [
+                        [
+                            "cb1a5572c84800903e1571a6f36c5373",
+                            [
+                                [
+                                    "source_name",
+                                    "Microsoft"
+                                ],
+                                [
+                                    "description",
+                                    "Jasper Sleet: North Korean Threat Actor tactics to infiltrate organizations"
+                                ],
+                                [
+                                    "url",
+                                    "https://www.microsoft.com/en-us/security/blog/2025/06/30/jasper-sleet-north-korean-remote-it-workers-evolving-tactics-to-infiltrate-organizations/"
+                                ]
+                            ]
+                        ],
+                        [
+                            "4e95c7ead915708ed6f59bce51e37af3",
+                            [
+                                [
+                                    "source_name",
+                                    "Group IB"
+                                ],
+                                [
+                                    "description",
+                                    "Group-IB Threat Intelligence Portal: JASPER SLEET (aka DPRK IT Workers)"
+                                ],
+                                [
+                                    "url",
+                                    "https://www.group-ib.com/blog/dprk-fake-remote-developers/"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                [
+                    "created",
+                    {
+                        "time": "2026-06-09T16:57:03.632+08:00",
+                        "zone": "Asia/Manila"
+                    }
+                ]
+            ],
+            "objects": [
+                "322c7958-38b9-4cf3-bff5-be4741a313c9",
+                "f9f6aab5-abaa-436f-9f23-3e59966f2a0f",
+                "0c7940c2-504f-4184-a9fd-60fb1bb4b990",
+                "cd8e840e-7612-4866-99d0-68355e770cf3",
+                "0636413c-090a-4b8d-be02-b5f7cb3a2ad9",
+                "68f0b8ba-776b-4398-9907-3884bb674d92",
+                "8e4422ff-1e25-48df-94f8-276d21b9371e",
+                "b5633551-7f99-4f02-9159-c64252a391cd",
+                "1ab26071-30f3-4ced-8114-c0f65f0fe1ec",
+                "bb3b6394-b7e5-4712-8475-06881ef7e5ef",
+                "3e90d5a0-345f-4bef-88fc-8548b422a68b"
+            ]
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "322c7958-38b9-4cf3-bff5-be4741a313c9",
+            "source": "5334ee63-a51f-4d88-9c9c-6167183a9dd1",
+            "target": "b70c511b-02f9-4686-85ae-f43dfb647f54",
+            "handles": [
+                "2887d158-65e6-4444-87e5-f52cd74690fe"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "5334ee63-a51f-4d88-9c9c-6167183a9dd1"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "b70c511b-02f9-4686-85ae-f43dfb647f54"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "2887d158-65e6-4444-87e5-f52cd74690fe"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "f9f6aab5-abaa-436f-9f23-3e59966f2a0f",
+            "source": "90137a1e-92f5-4cd1-b3ef-62529a119423",
+            "target": "0f10b6db-1e7f-4066-83ae-e5631f55cdeb",
+            "handles": [
+                "be2cd017-2356-4d1c-b802-479a3ff22ffa"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "90137a1e-92f5-4cd1-b3ef-62529a119423"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "0f10b6db-1e7f-4066-83ae-e5631f55cdeb"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "be2cd017-2356-4d1c-b802-479a3ff22ffa"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "0c7940c2-504f-4184-a9fd-60fb1bb4b990",
+            "source": "4027f616-dcf5-4033-befb-af29b7c114cc",
+            "target": "0cb3bd2c-550a-4881-aa6f-1d92719019a7",
+            "handles": [
+                "7408e28d-7134-46a7-bf8f-3ade25ac0246"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "4027f616-dcf5-4033-befb-af29b7c114cc"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "0cb3bd2c-550a-4881-aa6f-1d92719019a7"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "7408e28d-7134-46a7-bf8f-3ade25ac0246"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "cd8e840e-7612-4866-99d0-68355e770cf3",
+            "source": "947a180a-2db4-4eca-a76e-7dbd3a942b6e",
+            "target": "0807c1a5-4d1c-4645-9b5e-081f63095af9",
+            "handles": [
+                "51804f37-bbc7-4ac0-bbf0-85148d770d35"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "947a180a-2db4-4eca-a76e-7dbd3a942b6e"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "0807c1a5-4d1c-4645-9b5e-081f63095af9"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "51804f37-bbc7-4ac0-bbf0-85148d770d35"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "0636413c-090a-4b8d-be02-b5f7cb3a2ad9",
+            "source": "c92bc93a-c6f7-45ff-b06c-bb0836747f11",
+            "target": "c1d9c4aa-24fe-41e8-86a7-64d49e18b152",
+            "handles": [
+                "0d8ae4b8-b6ce-4430-9cb4-f7f71bdc905a"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "c92bc93a-c6f7-45ff-b06c-bb0836747f11"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "c1d9c4aa-24fe-41e8-86a7-64d49e18b152"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "0d8ae4b8-b6ce-4430-9cb4-f7f71bdc905a"
+        },
+        {
+            "id": "action",
+            "instance": "68f0b8ba-776b-4398-9907-3884bb674d92",
+            "properties": [
+                [
+                    "name",
+                    "External Remote Services"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0001"
+                        ],
+                        [
+                            "technique",
+                            "T1133"
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "Jasper Sleet leverages external remote services such as VPNs, Remote Desktop Protocol (RDP), and other internet-facing remote access platforms to gain and maintain access to victim environments. The group often utilizes compromised credentials or weak authentication mechanisms to access these services and bypass perimeter defenses. By abusing legitimate remote access channels, Jasper Sleet can blend into normal administrative activity, establish persistent access, and conduct reconnaissance, lateral movement, and follow-on malicious operations within targeted networks."
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "e118a84f-eaa5-45f7-b50c-8c9d9cad4200",
+                "30": "efb30d57-4a92-466e-923f-92f19c228d9b",
+                "60": "6eace071-999e-44c9-9244-cfae284ec988",
+                "90": "15a14e52-4b03-4758-bb6b-d8f9f2a9ef13",
+                "120": "8be05f74-e786-4a7b-bf80-c0f31d83ce9e",
+                "150": "6e0ec802-b4a4-4298-9281-707544aa90ec",
+                "180": "93792f8e-c424-4eb1-87ae-f94d4f7b9bbd",
+                "210": "8c5da868-006a-4390-b5dc-46114a965655",
+                "240": "95d7382d-a394-4bde-8390-ea8b1798577e",
+                "270": "07f65cf1-a849-42f5-9b48-f1643a1d7dea",
+                "300": "3461c253-22ea-4930-949b-d4383592ce1b",
+                "330": "a37fed08-1a9f-4479-818b-afbcb7a71ca3"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "e118a84f-eaa5-45f7-b50c-8c9d9cad4200",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "efb30d57-4a92-466e-923f-92f19c228d9b",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "6eace071-999e-44c9-9244-cfae284ec988",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "15a14e52-4b03-4758-bb6b-d8f9f2a9ef13",
+            "latches": [
+                "b70c511b-02f9-4686-85ae-f43dfb647f54"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "8be05f74-e786-4a7b-bf80-c0f31d83ce9e",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "6e0ec802-b4a4-4298-9281-707544aa90ec",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "93792f8e-c424-4eb1-87ae-f94d4f7b9bbd",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "8c5da868-006a-4390-b5dc-46114a965655",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "95d7382d-a394-4bde-8390-ea8b1798577e",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "07f65cf1-a849-42f5-9b48-f1643a1d7dea",
+            "latches": [
+                "90137a1e-92f5-4cd1-b3ef-62529a119423"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "3461c253-22ea-4930-949b-d4383592ce1b",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "a37fed08-1a9f-4479-818b-afbcb7a71ca3",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "8e4422ff-1e25-48df-94f8-276d21b9371e",
+            "properties": [
+                [
+                    "name",
+                    "Phishing"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0001"
+                        ],
+                        [
+                            "technique",
+                            "T1566"
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "Jasper Sleet leverages phishing campaigns as an initial access vector to compromise targeted environments. The group distributes deceptive emails designed to impersonate trusted organizations, services, or individuals in order to trick recipients into opening malicious attachments, clicking embedded links, or disclosing sensitive credentials. Successful phishing attempts enable Jasper Sleet to establish an initial foothold within victim systems, deploy additional payloads, and facilitate credential access, persistence, and follow-on intrusion activities within the targeted network."
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "95b94e42-d8a2-40e5-b011-a4d118bd2dc3",
+                "30": "09803593-296d-41ba-a445-c2ebe9ec7afc",
+                "60": "59275438-9c93-4311-8857-f8584ea50d7f",
+                "90": "b5a34943-33cf-4123-b3ea-4e3a86ac2401",
+                "120": "a6045602-f4ec-4d7b-b817-28481676528f",
+                "150": "27c62a81-a248-45dc-8c9d-cbe07dd3dc67",
+                "180": "35b8f148-e48e-4c70-9638-50b513b98010",
+                "210": "f1812563-240e-4fff-901d-45cea7dd896f",
+                "240": "76bc1782-630b-4fe9-a9ff-a4f0ba21e915",
+                "270": "312c9b97-5428-4094-a69a-0f59f7684b31",
+                "300": "d4ff5474-e797-4b9d-9f8d-673c23e3ed0c",
+                "330": "442d0f2e-ccba-45de-a6bd-423c7281b9e2"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "95b94e42-d8a2-40e5-b011-a4d118bd2dc3",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "09803593-296d-41ba-a445-c2ebe9ec7afc",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "59275438-9c93-4311-8857-f8584ea50d7f",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "b5a34943-33cf-4123-b3ea-4e3a86ac2401",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "a6045602-f4ec-4d7b-b817-28481676528f",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "27c62a81-a248-45dc-8c9d-cbe07dd3dc67",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "35b8f148-e48e-4c70-9638-50b513b98010",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "f1812563-240e-4fff-901d-45cea7dd896f",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "76bc1782-630b-4fe9-a9ff-a4f0ba21e915",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "312c9b97-5428-4094-a69a-0f59f7684b31",
+            "latches": [
+                "5334ee63-a51f-4d88-9c9c-6167183a9dd1"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "d4ff5474-e797-4b9d-9f8d-673c23e3ed0c",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "442d0f2e-ccba-45de-a6bd-423c7281b9e2",
+            "latches": []
+        },
+        {
+            "id": "asset",
+            "instance": "b5633551-7f99-4f02-9159-c64252a391cd",
+            "properties": [
+                [
+                    "name",
+                    "LOG IN NODE SEGMENT"
+                ],
+                [
+                    "description",
+                    "Login Node\n(Jump Host)"
+                ]
+            ],
+            "anchors": {
+                "0": "bd475366-ef70-4b63-8fc8-1b9e2ebc4271",
+                "30": "846db27a-9986-4276-9dd0-b226b6a59a4c",
+                "60": "4e91e02d-210f-4016-ac07-ba73b59dec74",
+                "90": "bbfbf3e5-99f5-4a24-ba96-ce08b1f3b3fc",
+                "120": "6e7608d0-faa5-41f1-ad3b-2aaf6ac67833",
+                "150": "b0ebf96f-727d-4e06-aa2f-c3ee68990906",
+                "180": "01fe9f24-4b9c-410c-8986-6ee98a6a17e2",
+                "210": "41d61d79-7d98-4665-bcde-7c7b2d215c13",
+                "240": "ec0c6013-a9d0-4adc-b8b7-7870a94a2ba4",
+                "270": "cd4814b8-6d3d-482f-9a8e-882dc8759a57",
+                "300": "79dfd34e-74bc-4102-9fda-e9fb6efb4c4a",
+                "330": "e5b8d46e-7009-4a36-9d9a-fa2fea13e5e1"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "bd475366-ef70-4b63-8fc8-1b9e2ebc4271",
+            "latches": [
+                "4027f616-dcf5-4033-befb-af29b7c114cc"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "846db27a-9986-4276-9dd0-b226b6a59a4c",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "4e91e02d-210f-4016-ac07-ba73b59dec74",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "bbfbf3e5-99f5-4a24-ba96-ce08b1f3b3fc",
+            "latches": [
+                "0f10b6db-1e7f-4066-83ae-e5631f55cdeb"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "6e7608d0-faa5-41f1-ad3b-2aaf6ac67833",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "b0ebf96f-727d-4e06-aa2f-c3ee68990906",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "01fe9f24-4b9c-410c-8986-6ee98a6a17e2",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "41d61d79-7d98-4665-bcde-7c7b2d215c13",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "ec0c6013-a9d0-4adc-b8b7-7870a94a2ba4",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "cd4814b8-6d3d-482f-9a8e-882dc8759a57",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "79dfd34e-74bc-4102-9fda-e9fb6efb4c4a",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "e5b8d46e-7009-4a36-9d9a-fa2fea13e5e1",
+            "latches": []
+        },
+        {
+            "id": "asset",
+            "instance": "1ab26071-30f3-4ced-8114-c0f65f0fe1ec",
+            "properties": [
+                [
+                    "name",
+                    "MANAGEMENT SEGMENT"
+                ],
+                [
+                    "description",
+                    "ILO / IPMI Servers\nNetwork Management\nBackup Infrastructure\nSystem Management"
+                ]
+            ],
+            "anchors": {
+                "0": "8563ce81-1f7f-4563-af09-ec3447d08b43",
+                "30": "43d32194-f01a-45c5-96b2-a3263da21b1b",
+                "60": "e24c400a-3f87-41d8-8b46-acc2ad42f967",
+                "90": "a852d672-a8da-40c7-886a-f7499828a437",
+                "120": "b56b3457-9a66-4ba6-8e79-73df44fc3f6d",
+                "150": "752937df-f87e-4836-b0df-9b64386ddd07",
+                "180": "7896849a-31b5-4bc7-b248-1492dd7de43e",
+                "210": "be542189-5b8a-40a8-a1f0-dfe618f52cb3",
+                "240": "12c3837f-f78d-413f-b8d6-dee5111179ed",
+                "270": "fd3c4d90-dff1-452c-9c7c-cccad3f02a81",
+                "300": "f216565b-d73d-4c5c-a679-9b0085c5301a",
+                "330": "86b8de1f-ff08-4a3e-b44e-a85f60cb7e5d"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "8563ce81-1f7f-4563-af09-ec3447d08b43",
+            "latches": [
+                "947a180a-2db4-4eca-a76e-7dbd3a942b6e"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "43d32194-f01a-45c5-96b2-a3263da21b1b",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "e24c400a-3f87-41d8-8b46-acc2ad42f967",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "a852d672-a8da-40c7-886a-f7499828a437",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "b56b3457-9a66-4ba6-8e79-73df44fc3f6d",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "752937df-f87e-4836-b0df-9b64386ddd07",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "7896849a-31b5-4bc7-b248-1492dd7de43e",
+            "latches": [
+                "0cb3bd2c-550a-4881-aa6f-1d92719019a7"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "be542189-5b8a-40a8-a1f0-dfe618f52cb3",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "12c3837f-f78d-413f-b8d6-dee5111179ed",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "fd3c4d90-dff1-452c-9c7c-cccad3f02a81",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "f216565b-d73d-4c5c-a679-9b0085c5301a",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "86b8de1f-ff08-4a3e-b44e-a85f60cb7e5d",
+            "latches": []
+        },
+        {
+            "id": "asset",
+            "instance": "bb3b6394-b7e5-4712-8475-06881ef7e5ef",
+            "properties": [
+                [
+                    "name",
+                    "ENTERPRISE / USER NETWORKS"
+                ],
+                [
+                    "description",
+                    "User Workstation\nFile Servers\nEmail Servers\nPrint Servers"
+                ]
+            ],
+            "anchors": {
+                "0": "d7a4a1a6-877b-4b31-99f8-d8f47a617de0",
+                "30": "2cf49f1f-4dec-4d30-bcdb-28e343712d96",
+                "60": "da6aa8d3-bef7-4336-aa2a-aa4fecf6c190",
+                "90": "2c77dbd2-cba0-4197-acc1-57af87398850",
+                "120": "c7f40a9f-1aa5-47ed-9c12-6c1a0765645c",
+                "150": "07857db2-4bf6-4b08-806e-29e38df62897",
+                "180": "8f2635fa-a554-4986-a428-5824ed08d91f",
+                "210": "8cbbb01f-0f53-4a7f-8531-63e282df891a",
+                "240": "b5bbd0c4-eb0e-46c4-b69a-f83bede071a9",
+                "270": "4cdf1286-494b-4464-a244-77b0f899b39b",
+                "300": "27b07d13-d801-4386-9179-e39fecaba4c7",
+                "330": "97ccfad0-b1af-4765-bb68-cbe306e9522b"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "d7a4a1a6-877b-4b31-99f8-d8f47a617de0",
+            "latches": [
+                "c92bc93a-c6f7-45ff-b06c-bb0836747f11"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "2cf49f1f-4dec-4d30-bcdb-28e343712d96",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "da6aa8d3-bef7-4336-aa2a-aa4fecf6c190",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "2c77dbd2-cba0-4197-acc1-57af87398850",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "c7f40a9f-1aa5-47ed-9c12-6c1a0765645c",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "07857db2-4bf6-4b08-806e-29e38df62897",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "8f2635fa-a554-4986-a428-5824ed08d91f",
+            "latches": [
+                "0807c1a5-4d1c-4645-9b5e-081f63095af9"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "8cbbb01f-0f53-4a7f-8531-63e282df891a",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "b5bbd0c4-eb0e-46c4-b69a-f83bede071a9",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "4cdf1286-494b-4464-a244-77b0f899b39b",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "27b07d13-d801-4386-9179-e39fecaba4c7",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "97ccfad0-b1af-4765-bb68-cbe306e9522b",
+            "latches": []
+        },
+        {
+            "id": "asset",
+            "instance": "3e90d5a0-345f-4bef-88fc-8548b422a68b",
+            "properties": [
+                [
+                    "name",
+                    "HPC COMPUTE ENVIRONMENT"
+                ],
+                [
+                    "description",
+                    "Compute Nodes\nHPC Storage Systems\nHPCM Management Servers"
+                ]
+            ],
+            "anchors": {
+                "0": "b00916c8-298d-4d22-8fb3-e7acb37f5491",
+                "30": "c69bdbca-47b0-4618-8c6d-a7f2a7ce67e9",
+                "60": "03782158-7093-454c-954a-e300d5266853",
+                "90": "1c64e5a1-a98b-42a0-863a-c0c913d26807",
+                "120": "162bf5aa-670f-4326-ae7e-cf7d1bec2960",
+                "150": "9bfa2ece-50db-4ff2-82e9-e45ffd927b68",
+                "180": "696fc0ab-ecc7-4af7-bc0d-3c22d29673da",
+                "210": "a00038be-b97f-4625-9f18-47a4183b59ad",
+                "240": "c5f94acc-c209-44cc-a7ad-3b63619fd25a",
+                "270": "db0b3d15-1c82-49a2-8a7e-55b2fb448c11",
+                "300": "31b2b47f-4180-4f1a-aab4-de42bf6e8c58",
+                "330": "b0ca792c-01bc-48bc-9e6b-ebb38079c6ef"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "b00916c8-298d-4d22-8fb3-e7acb37f5491",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "c69bdbca-47b0-4618-8c6d-a7f2a7ce67e9",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "03782158-7093-454c-954a-e300d5266853",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "1c64e5a1-a98b-42a0-863a-c0c913d26807",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "162bf5aa-670f-4326-ae7e-cf7d1bec2960",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "9bfa2ece-50db-4ff2-82e9-e45ffd927b68",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "696fc0ab-ecc7-4af7-bc0d-3c22d29673da",
+            "latches": [
+                "c1d9c4aa-24fe-41e8-86a7-64d49e18b152"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "a00038be-b97f-4625-9f18-47a4183b59ad",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "c5f94acc-c209-44cc-a7ad-3b63619fd25a",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "db0b3d15-1c82-49a2-8a7e-55b2fb448c11",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "31b2b47f-4180-4f1a-aab4-de42bf6e8c58",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "b0ca792c-01bc-48bc-9e6b-ebb38079c6ef",
+            "latches": []
+        }
+    ],
+    "layout": {
+        "68f0b8ba-776b-4398-9907-3884bb674d92": [
+            -1463.5,
+            664
+        ],
+        "8e4422ff-1e25-48df-94f8-276d21b9371e": [
+            -1463.5,
+            29
+        ],
+        "b5633551-7f99-4f02-9159-c64252a391cd": [
+            -1458.5,
+            1069
+        ],
+        "1ab26071-30f3-4ced-8114-c0f65f0fe1ec": [
+            -1138.5,
+            1069
+        ],
+        "bb3b6394-b7e5-4712-8475-06881ef7e5ef": [
+            -788.5,
+            1069
+        ],
+        "3e90d5a0-345f-4bef-88fc-8548b422a68b": [
+            -418.5,
+            1069
+        ]
+    },
+    "camera": {
+        "x": -1374,
+        "y": 615,
+        "k": 0.2526526115996195
+    }
+}

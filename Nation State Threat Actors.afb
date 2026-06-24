@@ -72,7 +72,6 @@
                 "ea45f324-f85c-4875-83f2-686e8f72f36b",
                 "55dff3d9-f8b9-4c38-9596-b595a327d659",
                 "298b8d09-95fa-459e-99a8-acd49202facf",
-                "09e14b1a-18a1-45f0-b7fd-a8e18ac2b344",
                 "70a72bd4-fba4-4903-bbe1-e615287034be",
                 "ee09220f-91f3-404e-b3b3-817f35defba2",
                 "16ddfc9a-73b3-4b57-8754-3764435fc141",
@@ -87,6 +86,7 @@
                 "29656e59-b389-439e-9c88-91ea95fde83a",
                 "46a3e154-592d-4ecd-acb1-be1cc109a493",
                 "6b24e93b-b13f-434a-a366-75f6dd0fdcdd",
+                "923b397e-c3b8-471f-a61b-81fb07fa1eef",
                 "8acbf380-8109-4189-b069-b9ca9703bcbe",
                 "87c13c81-9f6c-4971-b5c0-f4b2e04101bf",
                 "bf1f7400-0c15-49ca-8d1f-29518c8cce9b",
@@ -340,27 +340,6 @@
         {
             "id": "generic_handle",
             "instance": "b734de62-b777-413e-b5d2-305157f48614"
-        },
-        {
-            "id": "dynamic_line",
-            "instance": "09e14b1a-18a1-45f0-b7fd-a8e18ac2b344",
-            "source": "1f408ddd-5bb3-4299-9a1c-62a483376fe6",
-            "target": "995e030b-a0eb-4e01-8d1f-8141b707225c",
-            "handles": [
-                "f6632460-49c7-4dd1-8319-c247df19db1e"
-            ]
-        },
-        {
-            "id": "generic_latch",
-            "instance": "1f408ddd-5bb3-4299-9a1c-62a483376fe6"
-        },
-        {
-            "id": "generic_latch",
-            "instance": "995e030b-a0eb-4e01-8d1f-8141b707225c"
-        },
-        {
-            "id": "generic_handle",
-            "instance": "f6632460-49c7-4dd1-8319-c247df19db1e"
         },
         {
             "id": "dynamic_line",
@@ -657,6 +636,27 @@
             "instance": "0c616cd4-1335-4dd5-b8f6-a52d7039ec25"
         },
         {
+            "id": "dynamic_line",
+            "instance": "923b397e-c3b8-471f-a61b-81fb07fa1eef",
+            "source": "9bf70e58-2db5-4566-9059-a2555dfd108a",
+            "target": "b5a5332d-1053-41cb-99cb-b987c56db48e",
+            "handles": [
+                "07ae9b6b-594c-418f-b81e-b71430cf75da"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "9bf70e58-2db5-4566-9059-a2555dfd108a"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "b5a5332d-1053-41cb-99cb-b987c56db48e"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "07ae9b6b-594c-418f-b81e-b71430cf75da"
+        },
+        {
             "id": "action",
             "instance": "8acbf380-8109-4189-b069-b9ca9703bcbe",
             "properties": [
@@ -679,7 +679,7 @@
                 ],
                 [
                     "description",
-                    "Threat Actors leverages vulnerabilities in internet-facing applications and services to gain initial access to victim environments. The group has been observed exploiting publicly accessible web applications, remote management interfaces, and enterprise services to execute malicious code, deploy payloads, or obtain unauthorized access."
+                    "Nation State Threat Actors leverages vulnerabilities in internet-facing applications and services to gain initial access to victim environments. The group has been observed exploiting publicly accessible web applications, remote management interfaces, and enterprise services to execute malicious code, deploy payloads, or obtain unauthorized access."
                 ],
                 [
                     "confidence",
@@ -804,7 +804,7 @@
                 ],
                 [
                     "description",
-                    "Threat Actors leverages valid accounts obtained through phishing, credential harvesting, password spraying, or other credential theft techniques to gain and maintain access to victim environments. By abusing legitimate user credentials, the group can authenticate to systems, cloud services, and network resources while blending in with normal user activity."
+                    "Nation State Threat Actors leverages valid accounts obtained through phishing, credential harvesting, password spraying, or other credential theft techniques to gain and maintain access to victim environments. By abusing legitimate user credentials, the group can authenticate to systems, cloud services, and network resources while blending in with normal user activity."
                 ],
                 [
                     "confidence",
@@ -921,7 +921,7 @@
                 ],
                 [
                     "description",
-                    "Threat Actors leverages external remote services, such as VPNs, remote desktop solutions, and other internet-accessible remote access platforms, to gain and maintain access to victim environments. The group frequently uses valid credentials obtained through phishing, credential harvesting, or password attacks to authenticate to these services and bypass perimeter defenses."
+                    "Nation State Threat Actors leverages external remote services, such as VPNs, remote desktop solutions, and other internet-accessible remote access platforms, to gain and maintain access to victim environments. The group frequently uses valid credentials obtained through phishing, credential harvesting, or password attacks to authenticate to these services and bypass perimeter defenses."
                 ],
                 [
                     "confidence",
@@ -1013,7 +1013,7 @@
             "id": "vertical_anchor",
             "instance": "4a9b906f-72ad-4616-a2b8-3cfe336ed5ab",
             "latches": [
-                "1f408ddd-5bb3-4299-9a1c-62a483376fe6"
+                "9bf70e58-2db5-4566-9059-a2555dfd108a"
             ]
         },
         {
@@ -1049,7 +1049,7 @@
                 ],
                 [
                     "description",
-                    "Threat Actors leverages phishing campaigns as a primary method for gaining initial access to victim environments. The group distributes deceptive emails that impersonate trusted organizations, government entities, or business contacts to entice recipients into opening malicious attachments, clicking malicious links, or providing credentials."
+                    "Nation State Threat Actors leverages phishing campaigns as a primary method for gaining initial access to victim environments. The group distributes deceptive emails that impersonate trusted organizations, government entities, or business contacts to entice recipients into opening malicious attachments, clicking malicious links, or providing credentials."
                 ],
                 [
                     "confidence",
@@ -1166,7 +1166,7 @@
                 ],
                 [
                     "description",
-                    "Threat Actors leverages targeted spearphishing emails containing malicious links to gain initial access to victim environments. These emails are often disguised as legitimate communications and are designed to entice recipients into visiting attacker-controlled websites, downloading malicious payloads, or entering credentials into fraudulent login pages. Successful interaction with these links enables MuddyWater to harvest credentials, deploy malware, and establish a foothold within victim networks."
+                    "Nation State Threat Actors leverages targeted spearphishing emails containing malicious links to gain initial access to victim environments. These emails are often disguised as legitimate communications and are designed to entice recipients into visiting attacker-controlled websites, downloading malicious payloads, or entering credentials into fraudulent login pages. Successful interaction with these links enables MuddyWater to harvest credentials, deploy malware, and establish a foothold within victim networks."
                 ],
                 [
                     "confidence",
@@ -1283,7 +1283,7 @@
                 ],
                 [
                     "description",
-                    "Threat Actors leverages targeted spearphishing emails containing malicious attachments to gain initial access to victim environments. These emails are often crafted to appear as legitimate communications and may include weaponized documents, archives, or files that execute malicious code when opened. Successful execution of the attachment enables MuddyWater to deploy malware, establish persistence, harvest credentials."
+                    "Nation State Threat Actors leverages targeted spearphishing emails containing malicious attachments to gain initial access to victim environments. These emails are often crafted to appear as legitimate communications and may include weaponized documents, archives, or files that execute malicious code when opened. Successful execution of the attachment enables MuddyWater to deploy malware, establish persistence, harvest credentials."
                 ],
                 [
                     "confidence",
@@ -1400,7 +1400,7 @@
                 ],
                 [
                     "description",
-                    "Threat Actors leverages compromised domain accounts to gain and maintain access within victim environments. Credentials obtained through phishing, credential harvesting, or other means are used to authenticate to domain-joined systems, access network resources, and facilitate lateral movement across the enterprise."
+                    "Nation State Threat Actors leverages compromised domain accounts to gain and maintain access within victim environments. Credentials obtained through phishing, credential harvesting, or other means are used to authenticate to domain-joined systems, access network resources, and facilitate lateral movement across the enterprise."
                 ],
                 [
                     "confidence",
@@ -1517,7 +1517,7 @@
                 ],
                 [
                     "description",
-                    "Threat Actors leverages compromised or attacker-controlled local accounts to gain and maintain access to systems within victim environments. By abusing valid local credentials, the group can authenticate to endpoints, execute commands, establish persistence, and support lateral movement activities."
+                    "Nation State Threat Actors leverages compromised or attacker-controlled local accounts to gain and maintain access to systems within victim environments. By abusing valid local credentials, the group can authenticate to endpoints, execute commands, establish persistence, and support lateral movement activities."
                 ],
                 [
                     "confidence",
@@ -1634,7 +1634,7 @@
                 ],
                 [
                     "description",
-                    "Threat Actors leverages third-party messaging and communication services to deliver spearphishing content to targeted individuals and organizations. The group has used platforms such as social media, messaging applications, and business communication services to distribute malicious links, documents, or payloads while impersonating trusted entities."
+                    "Nation State Threat Actors leverages third-party messaging and communication services to deliver spearphishing content to targeted individuals and organizations. The group has used platforms such as social media, messaging applications, and business communication services to distribute malicious links, documents, or payloads while impersonating trusted entities."
                 ],
                 [
                     "confidence",
@@ -1751,7 +1751,7 @@
                 ],
                 [
                     "description",
-                    "Threat Actors leverages compromised cloud accounts to gain and maintain access to victim environments. The group has targeted accounts associated with cloud-based email, collaboration, and productivity services, often using stolen credentials obtained through phishing or credential harvesting operations."
+                    "Nation State Threat Actors leverages compromised cloud accounts to gain and maintain access to victim environments. The group has targeted accounts associated with cloud-based email, collaboration, and productivity services, often using stolen credentials obtained through phishing or credential harvesting operations."
                 ],
                 [
                     "confidence",
@@ -2164,7 +2164,7 @@
             "id": "vertical_anchor",
             "instance": "3c7f3e59-4321-4999-9079-3f64cbddac04",
             "latches": [
-                "995e030b-a0eb-4e01-8d1f-8141b707225c"
+                "b5a5332d-1053-41cb-99cb-b987c56db48e"
             ]
         },
         {
@@ -2860,15 +2860,15 @@
             436.5
         ],
         "186150b5-3df7-43c6-bf32-848533628e78": [
-            -1448.5,
-            -353.5
+            -1223.5,
+            -283.5
         ],
         "e02d5c87-4e4c-42f6-8d32-1e40808cab31": [
-            -1453.5,
+            -1223.5,
             471.5
         ],
         "df58fe28-afff-4d3b-b1d0-c699192c43e3": [
-            -1903.5,
+            -1673.5,
             446.5
         ],
         "cef3a167-f799-4baa-93f8-cab09be4b827": [
@@ -2880,7 +2880,7 @@
             -273.5
         ],
         "0ec5ced8-e823-41a6-b6de-e24e9d695676": [
-            -973.5,
+            -743.5,
             436.5
         ],
         "c16106da-09ce-4c12-aa76-ec37fd9ee55d": [
@@ -2900,12 +2900,12 @@
             676.5
         ],
         "3de2b885-62d9-4763-8cf9-80e6a14ddeaa": [
-            246.5,
-            881.5
+            251.5,
+            911.5
         ],
         "956ddede-8a1c-4c3c-83fe-c653234c8451": [
-            246.5,
-            1176.5
+            251.5,
+            1171.5
         ],
         "2c850a9e-1c9a-425c-a3a6-a9605302bfd7": [
             251.5,
@@ -2936,11 +2936,11 @@
             915
         ],
         "75ce8f7a-4ac0-49d1-ac87-9040b330e8e0": [
-            -825,
+            -710,
             735
         ],
         "2ae494ba-91ef-4826-9747-757c915f9ab5": [
-            -642,
+            -527,
             775
         ],
         "afa90adf-6b7d-430c-a9cf-9ff217ce1ba8": [
@@ -2954,11 +2954,15 @@
         "5772cca2-fdd3-4822-b086-6a2b42ad56c2": [
             298,
             25
+        ],
+        "07ae9b6b-594c-418f-b81e-b71430cf75da": [
+            251,
+            615
         ]
     },
     "camera": {
-        "x": 192,
-        "y": 508,
-        "k": 0.37499999999999983
+        "x": 698,
+        "y": 387,
+        "k": 0.4307618831238879
     }
 }
